@@ -197,14 +197,32 @@ main{
     justify-content: center;
     align-items: center;
 }
-.rsino div{
+.rsino a{
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
     background-color: blanchedalmond;
     padding: 1%;
     margin-bottom: 1%;
+    font-size: 150%;
 
+}
+.rsino1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rsino1 div {
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 170%;
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: rgb(188, 116, 21);
+    
+    
 }
 .preguntat  {
     
@@ -219,6 +237,6 @@ main{
     
     margin-bottom: ;
 }
-.rsino div:hover {
+.rsino a:hover {
     color: aqua;
 }
